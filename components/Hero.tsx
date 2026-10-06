@@ -5,7 +5,7 @@ export default function Hero() {
     <section className="relative w-full min-h-[80vh] flex items-center justify-center bg-slate-900 text-white overflow-hidden">
       {/* Elemento decorativo de fundo simulando um mapa de calor */}
       <div className="absolute top-[-10%] left-[-10%] w-96 h-96 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob"></div>
-      <div className="absolute top-[20%] right-[-10%] w-72 h-72 bg-red-500 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-2000"></div>
+      <div className="absolute top-[20%] right-[-10%] w-72 h-72 bg-red-500 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob [animation-delay:2.5s]"></div>
 
       <div className="relative z-10 max-w-5xl mx-auto px-6 text-center flex flex-col items-center">
         <span className="mb-4 inline-block py-1 px-3 rounded-full bg-blue-900/50 text-blue-300 text-sm font-semibold tracking-wider border border-blue-700/50">

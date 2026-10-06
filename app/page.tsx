@@ -4,6 +4,7 @@ import ValuePillars from "@/components/ValuePillars";
 import PhysicalFeatures from "@/components/PhysicalFeatures";
 import TechnologyFeatures from "@/components/TechnologyFeatures";
 import HowItWorks from "@/components/HowItWorks";
+import Compatibility from "@/components/Compatibility";
 import LeadForm from "@/components/LeadForm";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <TechnologyFeatures />
       <ValuePillars />
       <HowItWorks />
+      <Compatibility />
       <LeadForm />
     </main>
   );
