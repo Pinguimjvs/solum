@@ -3,6 +3,7 @@ import ProblemSolution from "@/components/ProblemSolution";
 import ValuePillars from "@/components/ValuePillars";
 import HowItWorks from "@/components/HowItWorks";
 import LeadForm from "@/components/LeadForm";
+import TechSpecs from "@/components/TechSpecs";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <ProblemSolution />
       <ValuePillars />
+      <TechSpecs />
       <HowItWorks />
       <LeadForm />
     </main>
